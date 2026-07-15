@@ -1,12 +1,92 @@
-# React + Vite
+# 🚀 AI Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An AI-powered Code Generator built with **React.js**, **Vite**, **Tailwind CSS**, and **Google Gemini AI**. The application generates high-quality frontend code from natural language prompts, allowing developers to build web interfaces faster.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🤖 AI-powered code generation using Google Gemini API
+- 💻 Generate HTML, CSS, JavaScript, React, Tailwind CSS, and Bootstrap code
+- ⚡ Real-time code generation
+- 📝 Built-in code editor
+- 👀 Live code preview
+- 📋 Copy generated code with one click
+- 📥 Export generated code
+- 🎨 Responsive and modern UI
+- 🔄 Fast performance using Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- Vite
+- Tailwind CSS
+- React Router DOM
+- React Icons
+- Monaco Editor
+
+### AI
+- Google Gemini API
+
+---
+
+## 📂 Project Structure
+
+```
+AI-Generator
+│── public/
+│── src/
+│   ├── components/
+│   ├── pages/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│── package.json
+│── vite.config.js
+│── tailwind.config.js
+│── postcss.config.js
+│── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/2056gayatric/AI-Generator.git
+```
+
+Move into the project
+
+```bash
+cd AI-Generator
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 🔑 Environment Variables
+
+Create a `.env` file in the project root and add your Google Gemini API key.
+
+```env
+VITE_GEMINI_API_KEY=YOUR_API_KEY
+```
+
+---
